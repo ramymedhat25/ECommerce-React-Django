@@ -1,0 +1,56 @@
+.userprofilein {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vh;
+  margin-bottom: 15vh;
+  gap: 30px;
+}
+
+.left,
+.right {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 50vh;
+}
+
+.left {
+  width: 20%;
+  background-color: #121f2e;
+  color: #ffffff;
+}
+
+.right {
+  width: 60%;
+}
+
+.card__image {
+  border-radius: 50%;
+  border: 4px solid #eee;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.order-list {
+  padding: 20px;
+}
+
+.order-card {
+  background-color: #f4f7f6;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.order-details {
+  padding: 20px;
+}
+
+.order-details h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.order-details p {
+  margin: 5px 0;
+  font-size: 14px;
+}
