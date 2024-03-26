@@ -1,0 +1,84 @@
+/* AddBuyerProduct.css */
+
+/* Grid container styling */
+.grid-container {
+display: grid;
+grid-template-columns: 260px 1fr;
+grid-template-rows: 90vh;
+/* grid-template-areas: 'sidebar main'; */
+}
+
+/* Form container styling */
+.formclss {
+    width: 60%;
+    margin: 0 auto; /* Centers the form horizontally */
+    padding: 20px; /* Adds some spacing around the form elements */
+    max-height: 800px; /* Set maximum height for the form */
+    overflow-y: visible; /* Enable vertical scrolling if needed */
+}
+
+/* Label styling */
+.labels {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+.formclss input[type='text'] {
+width: calc(100% - 16px);
+padding: 8px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 5px;
+outline: none;
+transition: border-color 0.3s;
+}
+
+.formclss input[type='text']:focus {
+border-color: #1d2634;
+}
+
+/* Error message styling */
+.error-message {
+color: #dc3545;
+font-size: 14px;
+margin-top: 5px;
+}
+
+/* Button styling */
+.add-product-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #336fe7; /* Example button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.add-product-button:hover {
+background-color: #275ecc;
+}
+.product-list-header {
+text-align: center;
+color: #FFFFFF;
+}
+
+.popuppp {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+background-color: rgba(0, 0, 0, 0.8);
+color: white;
+padding: 20px;
+border-radius: 5px;
+z-index: 9999;
+}
+
+.popuppp-content {
+text-align: center;
+}
